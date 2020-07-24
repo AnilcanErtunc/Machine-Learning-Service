@@ -1,0 +1,32 @@
+{% extends "bootstrap/base.html" %}
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ses Analizi Sayfası</title>
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+    <div class="col-sm-4" style="height: 350px;"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+ 
+            {% if message %}
+            <p>Metin text : {{ message }}</p>
+            {% else %}
+            <p>Merhaba</p>
+            {%endif%}
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

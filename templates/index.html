@@ -1,0 +1,51 @@
+
+{% extends "bootstrap/base.html" %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+{% block content %}
+
+<div class="container">
+    <div class="row"></div>
+    <div class="col"  style="height: 200px;">
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style="height: 150px;">
+        </div>
+        <div class="col-sm-4">
+            <h1>Merhaba</h1>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+            <form action="/yorum" method="GET"><button type="submit">Textten Konu Dönüşümü</button></form>
+        </div>
+        <div class="col-sm-4" style="height: 50px;">
+        </div>
+    </div>
+</div>   
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style="height: 100px;">
+        </div>
+        <div class="col-sm-4">
+        <form action="/sesanaliz" method="GET"><button type="submit">Sesten Text Dönüşümü</button>
+        <p>(Butona basıp konuşun)</p></form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+
+</div>
+    
+{% endblock %}

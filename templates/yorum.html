@@ -1,0 +1,48 @@
+
+{% extends "bootstrap/base.html" %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analizi Sayfası</title>
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col" style="height: 350px;"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"  style="height: 150px;"></div>
+            <div class="col-sm-4"  style="height: 150px;">
+                                    {% if sozcukler %} 
+    
+                                    <form action ="/yorum" method ="post">
+                                    <input type="text" name="htmlgonderi">
+                                    <button type="submit">Gönder</button>
+                                    </form>
+
+
+                                    <br>
+                                    <p>Metnin konusu : {{ sozcukler }}</p>
+                                    <br>
+    
+                                    {% else %}
+
+                                    <form action ="/yorum" method ="post">
+                                    <input type="text" name="htmlgonderi">
+                                    <button type="submit">Gönder</button>
+                                    </form>
+                                    <br>
+                                    <p>Metnin konusu : Henüz metin yok</p>
+                                    <br>
+        
+                                    {% endif %}
+            </div>
+
+    </div>
+    
+</div>
+
+
+
+{% endblock %}
