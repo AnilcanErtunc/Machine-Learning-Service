@@ -1,7 +1,29 @@
+Hello There.
+Im Anılcan
+
+
+***How can i use it******************************************
+App.py is a server component if you run it, it works.
+***********************************************************
+
+This project do speech recognition and does basic classification for text to topic.
+
+Im using modular programming a little bit.
+
+mp4tomp3.py is works but i dont combine it at the moment.
+If you want a conversation for video files to voice files you can combine this file
+
+Thanks.
+Have a Good Day.
+
+*
+*
+*
+*
+*
+
 Öncelikle merhaba.
 Ben Anılcan Ertunç
-172803005 numaralı 
-ikinci öğretim öğrencisiyim
 
 
 ****Proje nasıl açılır**************************************
@@ -18,4 +40,6 @@ Ayrıca başlangıçta bir süreliğine ses dosyalarından çevirmem gerektiğin
 dosyaları sese dönüştüren ufak bir modül hazırladım onu da ek olarak projeme bağlamasam da
 dosyaların içine iliştirdim.
 
-Teşekkürler.İyi günler dilerim.
+Teşekkürler.
+İyi günler dilerim.
+
